@@ -5,4 +5,52 @@
   --accent-dark-color: #4663ac;
   --accent-light-color: #ffc266;
   --neautral-color: #7e95e4;
+  --box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
+}
+.persona {
+  background: var(--primary-color);
+  padding: 160px 20px;
+  text-align: center;
+}
+
+h1,
+h2,
+h3 {
+  text-align: center;
+}
+
+h1 {
+  font-family: var(--heading-font-family);
+  font-size: 96px;
+  font-weight: 700;
+  line-height: 130px;
+}
+h2 {
+  font-family: var(--default-font-family);
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 36px;
+}
+h3 {
+  font-family: var(--default-font-family);
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 54px;
+}
+.btn-contact {
+  background-color: var(--accent-dark-color);
+  color: #ffffff;
+  padding: 18px 46px;
+  border-radius: 4px;
+  font-family: var(--default-font-family);
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 27px;
+  box-shadow: var(--box-shadow);
+  margin-top: 50px;
+}
+.btn-contact:hover {
+  border: 1px solid var(--accent-dark-color);
+  color: var(--accent-dark-color);
+  background: var(--accent-light-color);
 }
