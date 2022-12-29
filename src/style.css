@@ -7,6 +7,25 @@
   --neautral-color: #7e95e4;
   --box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
 }
+.navbar {
+  font-family: var(--default-font-family);
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: 500;
+  padding: 20px;
+  background: #ffffff;
+}
+
+li {
+  padding-left: 10px;
+}
+nav li.active a {
+  color: var(--accent-dark-color);
+  font-weight: 700;
+}
+.navbar a:hover {
+  color: var(--accent-light-color);
+}
 .persona {
   background: var(--primary-color);
   padding: 160px 20px;
@@ -82,7 +101,7 @@
   border-radius: 20px;
 }
 .about-page {
-  padding: 120px 20px;
+  padding: 80px 20px;
 }
 h1 {
   font-family: var(--heading-font-family);
@@ -152,5 +171,16 @@ p {
   }
   .about-page {
     text-align: center;
+  }
+  h1 {
+    font-size: 55px;
+    line-height: 66px;
+    padding-bottom: 10px;
+  }
+  .about-page {
+    padding: 70px 10px;
+  }
+  .about-page p {
+    line-height: 24px;
   }
 }
