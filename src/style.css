@@ -13,25 +13,19 @@
   text-align: center;
 }
 
-h1,
-h2,
-h3 {
-  text-align: center;
-}
-
-h1 {
+.persona h1 {
   font-family: var(--heading-font-family);
   font-size: 96px;
   font-weight: 700;
   line-height: 130px;
 }
-h2 {
+.persona h2 {
   font-family: var(--default-font-family);
   font-size: 24px;
   font-weight: 400;
   line-height: 36px;
 }
-h3 {
+.persona h3 {
   font-family: var(--default-font-family);
   font-weight: 700;
   font-size: 36px;
@@ -53,4 +47,34 @@ h3 {
   border: 1px solid var(--accent-dark-color);
   color: var(--accent-dark-color);
   background: var(--accent-light-color);
+}
+.project-description {
+  font-family: var(--default-font-family);
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 30px;
+}
+.project-name {
+  font-family: var(--heading-font-family);
+  font-size: 64px;
+  font-weight: 700;
+  line-height: 86px;
+  margin: 30px 0;
+}
+
+.btn-project {
+  border: 1px solid var(--accent-dark-color);
+  color: var(--accent-dark-color);
+  padding: 18px 46px;
+  border-radius: 4px;
+  font-family: var(--default-font-family);
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 27px;
+  box-shadow: var(--box-shadow);
+  margin-top: 50px;
+}
+.btn-project:hover {
+  background: var(--accent-light-color);
+  color: var(--accent-dark-color);
 }
