@@ -78,3 +78,28 @@
   background: var(--accent-light-color);
   color: var(--accent-dark-color);
 }
+
+@media (max-width: 900px) {
+  .persona h1 {
+    font-size: 70px;
+    line-height: 80px;
+  }
+  .persona h2 {
+    font-size: 18px;
+    line-height: 26px;
+  }
+  .persona h3 {
+    font-size: 28px;
+    line-height: 50px;
+  }
+  .project {
+    text-align: center;
+  }
+  .project-name {
+    font-size: 54px;
+    line-height: 66px;
+  }
+  .project-description {
+    line-height: 24px;
+  }
+}
