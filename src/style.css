@@ -117,6 +117,15 @@ p {
   font-weight: 700;
   padding-top: 30px;
 }
+.contact-page {
+  padding: 120px 100px;
+}
+.contact-page h1 {
+  font-family: var(--heading-font-family);
+  font-size: 64px;
+  font-weight: 700;
+  line-height: 86px;
+}
 
 @media (max-width: 900px) {
   .persona h1 {
