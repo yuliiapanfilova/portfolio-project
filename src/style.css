@@ -201,6 +201,10 @@ footer .email:hover {
   color: var(--accent-dark-color);
   font-size: 24px;
 }
+.github-link {
+  text-decoration: none;
+  color: var(--accent-dark-color);
+}
 
 @media (max-width: 900px) {
   .persona h1 {
