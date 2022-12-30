@@ -97,8 +97,13 @@ nav li.active a {
   background: var(--accent-light-color);
   color: var(--accent-dark-color);
 }
+.weather-img {
+  margin-top: 20px;
+}
 .profile {
   border-radius: 20px;
+  width: 75%;
+  margin-top: 40px;
 }
 .about-page {
   padding: 80px 20px;
@@ -121,13 +126,18 @@ h1 {
   line-height: 30px;
   font-weight: 400;
 }
+.text-link {
+  text-decoration: none;
+  color: var(--accent-dark-color);
+  font-weight: 700;
+}
 p {
   color: rgba(0, 0, 0, 0.6);
 }
 
 .work-page {
   text-align: center;
-  padding: 120px 20px;
+  padding: 120px 20px 30px 20px;
 }
 .work-page h3 {
   font-family: var(--default-font-family);
@@ -137,7 +147,7 @@ p {
   padding-top: 30px;
 }
 .contact-page {
-  padding: 200px 100px;
+  padding: 200px 100px 50px 100px;
 }
 .contact-page h1 {
   font-family: var(--heading-font-family);
@@ -180,6 +190,7 @@ footer .email {
   font-weight: 500;
   color: #000;
   margin-bottom: 20px;
+  margin-top: 20px;
 }
 
 footer .email:hover {
